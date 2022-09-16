@@ -6,7 +6,41 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-@media screen and (min-width: 1440px) {
+.pic {
+  width: 270px;
+  height: 270px;
+}
+
+main {
+  padding: 1em;
+  margin-top: 8%;
+  margin-left: 40%;
+  width: 300px;
+  background-color: white;
+}
+
+h1 {
+  padding-top: 1em;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  padding-top: 1em;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1440px) {
   .pic {
     width: 270px;
     height: 270px;
@@ -14,8 +48,44 @@ body {
 
   main {
     padding: 1em;
-    margin-top: 10%;
+    margin-top: 27%;
     margin-left: 40%;
+    width: 300px;
+    background-color: white;
+  }
+
+  h1 {
+    padding-top: 1em;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+  }
+
+  p {
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+  }
+
+  .attribution {
+    padding-top: 1em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pic {
+    width: 270px;
+    height: 270px;
+  }
+
+  main {
+    padding: 1em;
+    margin-top: 20%;
+    margin-left: 35.5%;
     width: 300px;
     background-color: white;
   }
